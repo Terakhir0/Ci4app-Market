@@ -175,7 +175,7 @@
                 </div>
 
                 <div class="" style="  display: flex; position:relative; top:-2rem; margin-left:2.5rem;">
-                    <i>Showing <?= count($produk) + (10 * ($currentPage - 1))?> of
+                    <i>Showing <?= count($produk) + (15 * ($currentPage - 1))?> of
                         <?= $pager->getTotal('tb_produk', 'daftar_produk'); ?>
                         items</i>
                 </div>
